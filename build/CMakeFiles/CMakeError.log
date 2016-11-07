@@ -1,0 +1,39 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/Bean/Desktop/PCL_ws/pcd2img/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5e98e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+已經開始建置於 2016/11/7 下午 10:22:44。
+位於 "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" 之 BeforeTargets 屬性中所列的目標 "BeforeGenerateProjectPriFile" 不存在於專案中，將會被忽略。
+節點 1 (預設目標) 上的專案 "C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\cmTC_5e98e.vcxproj"。
+PrepareForBuild:
+  正在建立目錄 "cmTC_5e98e.dir\Debug\"。
+  正在建立目錄 "C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\Debug\"。
+  正在建立目錄 "cmTC_5e98e.dir\Debug\cmTC_5e98e.tlog\"。
+InitializeBuildStatus:
+  由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_5e98e.dir\Debug\cmTC_5e98e.tlog\unsuccessfulbuild"。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e98e.dir\Debug\\" /Fd"cmTC_5e98e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e98e.dir\Debug\\" /Fd"cmTC_5e98e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 無法開啟包含檔案: 'pthread.h': No such file or directory [C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\cmTC_5e98e.vcxproj]
+專案 "C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\cmTC_5e98e.vcxproj" (預設目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+"C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\cmTC_5e98e.vcxproj" (預設目標) (1) ->
+(ClCompile 目標) -> 
+  C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 無法開啟包含檔案: 'pthread.h': No such file or directory [C:\Users\Bean\Desktop\PCL_ws\pcd2img\build\CMakeFiles\CMakeTmp\cmTC_5e98e.vcxproj]
+
+    0 個警告
+    1 個錯誤
+
+經過時間 00:00:00.20
+
+
